@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    --scrollbarBG: white;
+    --thumbBG: #bcbabc;
+}
+
+#textareas::-webkit-scrollbar {
+    width: 11px;
+}
+
+#textareas {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+    scroll-behavior: smooth;
+}
+
+#textareas::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+#textareas::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+}
+
+
+.colorbox{
+    width: 600px;
+    height: 100px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 10px rgb(231, 230, 230);
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.color{
+    margin-left: 50px ;
+    font-size: 30px;
+}
+#colors{
+    margin-left: 90px ;
+    width: 80px;
+
+}
+
+.hexcodebox{
+    margin-left: 50px ;
+    font-size: 30px;
+}
+#hexcode{
+    margin-left: 30px ;
+    margin-bottom: 10px;
+    width: 180px;
+    font-size: 25px;
+    /* height: 30px; */
+
+}
+.notepad{
+    width: 100%;
+   
+}
+.notepad p{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 20px;
+   
+}
+
+textarea{
+    width: 80%;
+    height: 350px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+   
+}
+textarea:focus{
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px 10px rgb(231, 230, 230);
+}
+
+.buttons{
+    width: 40%;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttons button{
+    width: 80px;
+    height: 30px;
+    margin: 10px 50px ;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+}
