@@ -28,7 +28,7 @@
 
 
 .colorbox{
-    width: 600px;
+    width: 50%;
     height: 100px;
     margin: 20px auto;
     display: flex;
@@ -114,4 +114,63 @@ textarea:focus{
 #reset:hover{
     background-color: rgb(206, 39, 39);
     color: white;
+}
+
+
+@media (max-width:800px){
+    .colorbox {
+        width: 60%;
+    }
+    .color {
+        font-size: 26px;
+    }
+    .hexcodebox {
+        font-size: 26px;
+    }
+    #hexcode {
+        width: 100px;
+        margin-left: 38px;
+        font-size: 20px;
+    
+    }
+    .buttons button {
+        width: 200px;
+        height: 30px;
+        margin: 10px 10px;
+        border-radius: 5px;
+        background-color: white;
+        border: 1px solid gray;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:520px){
+    #hexcode {
+        width: 100px;
+        margin-left: 0px;
+        font-size: 20px;
+    
+    }
+    #colors {
+        margin-left: 52px;
+     
+    }
+    .color {
+        font-size: 18px;
+    }
+    .hexcodebox {
+        font-size: 18px;
+    }
+    #colors {
+        margin-left: 36px;
+    }
+}
+
+@media (max-width:400px){
+    .colorbox {
+        width: 80%;
+    }
+    .buttons {
+        width: 50%;
+    }   
 }
