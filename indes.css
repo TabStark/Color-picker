@@ -78,9 +78,10 @@ textarea{
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
+    text-align: justify;
    
 }
 textarea:focus{
@@ -104,4 +105,13 @@ textarea:focus{
     background-color: white;
     border: 1px solid gray;
     cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(71, 229, 71);
+    color: white;
+}
+#reset:hover{
+    background-color: rgb(206, 39, 39);
+    color: white;
 }
